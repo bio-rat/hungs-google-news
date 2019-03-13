@@ -14,6 +14,10 @@ To create a GIF, use [LiceCap](http://www.cockos.com/licecap/), [RecordIt](http:
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 ```
 
+## Netlify link
+
+https://hungs-news-api.netlify.com/
+
 ## User Stories
 
 The following **required** functionalities are completed (this is a sample):
@@ -30,9 +34,15 @@ The following **optional** features are implemented:
 
 The following **Rocket Challenge 1: Sources** features are implemented:
 
-* [ ] The user can see a checkbox for every unique source of the articles loaded. For example, if the user loads four stories, and two stories are from bbc-news, one from cnn, and one from spiegel-de, the user would see three checkboxes: bbc-news, cnn, spiegel-de. 
-* [ ] Next to the source name, the user sees a number representing the number of stories from that source. To continue the previous example: bbc-news (2), cnn (1), spiegel-de (1).
+* [x] The user can see a checkbox for every unique source of the articles loaded. For example, if the user loads four stories, and two stories are from bbc-news, one from cnn, and one from spiegel-de, the user would see three checkboxes: bbc-news, cnn, spiegel-de. 
+* [x] Next to the source name, the user sees a number representing the number of stories from that source. To continue the previous example: bbc-news (2), cnn (1), spiegel-de (1).
 * [ ] The user can toggle the checkbox to hide or show stories from that source in the list.
+
+The following **Rocket Challenge 2: Categories** features are implemented:
+* [ ] The user can see links or a dropdown that represent the various categories for stories. Selecting on one of these links fetches a new batch of stories of the selected category.
+* [ ] The user should see new stories related to the category she chose.
+* [ ] The user should see a new or modified URL, with a query parameter representing the chosen category. For example, clicking on entertainment would add ?category=entertainment to the URL. The page should not refresh. To do this, look at URLSearchParameters and PushState.
+* [ ] The user should be able to load a page with the appropriate query parameter and automatically have the appropriate stories shown.
 
 ## Time Spent and Lessons Learned
 
