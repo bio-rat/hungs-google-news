@@ -24,19 +24,19 @@ The following **required** functionalities are completed (this is a sample):
 
 The following **optional** features are implemented:
 
-* [x] Add favicon to the page
-* [ ] Animation on an element
-* [ ] Navigation, contact, sitemap, privacy policy, term of use, etc in footer
-* [ ] Bootstrap carousel for banner
-* [ ] Banner with background video
+* [x] The user can click a link at the bottom of the page to load the next 20 stories. The page should not refresh; the stories should simply be added to the bottom. 
+* [x] The user can see an updated number of stories currently shown.
+* [x] The user can see how long ago the story was published in a human-friendly format; e.g. "15 minutes ago".
 
-The following **additional** features are implemented:
+The following **Rocket Challenge 1: Sources** features are implemented:
 
-* [x] List anything else that you can get done to improve the page!
+* [ ] The user can see a checkbox for every unique source of the articles loaded. For example, if the user loads four stories, and two stories are from bbc-news, one from cnn, and one from spiegel-de, the user would see three checkboxes: bbc-news, cnn, spiegel-de. 
+* [ ] Next to the source name, the user sees a number representing the number of stories from that source. To continue the previous example: bbc-news (2), cnn (1), spiegel-de (1).
+* [ ] The user can toggle the checkbox to hide or show stories from that source in the list.
 
 ## Time Spent and Lessons Learned
 
-Time spent: **X** hours spent in total.
+Time spent: **24** hours spent in total.
 
 Describe any challenges encountered while building the app.
 
